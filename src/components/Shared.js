@@ -2,7 +2,7 @@ import styled from 'styled-components'
 // import { Link } from 'react-router-dom'
 
 export const Nav = styled.nav`
-  height: 80px;
+  height: 70px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ export const Nav = styled.nav`
   box-shadow: 0 2px 2px 2px #4f323b;
   font-family: 'Verdana';
   font-size: 20px;
-  justify-content: center;
+  justify-content: right;
   list-style-type: none;
 `
 export const HomeIconStyle = styled.li`
@@ -29,26 +29,26 @@ export const HomeIconStyle = styled.li`
   }
 `
 export const JennDiv = styled.div`
-    display: flex;
-    float: right:
-    width: 10%;
-    align-items: center;
-    flex-direction: row;
-    text-decoration: none;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: #e9e2d0;
-    box-shadow: 3px 3px 2px #4f323b;
-    padding: 15px;
-    margin: 25px 9px;
-    `
+  display: flex;
+  float: center;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #e9e2d0;
+  box-shadow: 3px 3px 2px #4f323b;
+  padding: 8px;
+  margin: 6px 5px;
+`
 
 export const JennTextbox = styled.p`
-  padding: 15px;
+  padding: 5px;
   border-radius: 6px;
-  margin: 10px;
+  margin: 6px;
   width: 400px;
-  height: 370px;
+  height: 260px;
   color: white;
   font-family: 'Verdana';
   line-height: 1.7;
@@ -57,5 +57,5 @@ export const JennTextbox = styled.p`
   outline: none;
   border: 1px solid gray;
   background-color: #6e5773;
-  font-size: 22px;
+  font-size: 19px;
 `

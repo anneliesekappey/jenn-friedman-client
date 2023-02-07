@@ -28,7 +28,7 @@ export const JennAll = () => {
         <JennText />
       ) : (
         <JennDiv>
-          <img src={Jenn} alt="Jenn Friedman" height="350px" />
+          <img src={Jenn} alt="Jenn Friedman" height="320px" />
         </JennDiv>
       )}
     </div>
