@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-// import { Link } from 'react-router-dom'
 
 export const Nav = styled.nav`
   height: 70px;
@@ -58,4 +57,22 @@ export const JennTextbox = styled.p`
   border: 1px solid gray;
   background-color: #6e5773;
   font-size: 19px;
+`
+export const AboutLink = styled.a`
+  text-decoration: none;
+  color: #e9e2d0;
+  padding: 10px;
+  font-size: 14px;
+`
+export const ConnectLink = styled.a`
+  text-decoration: none;
+  color: #e9e2d0;
+  padding: 10px;
+  font-size: 14px;
+`
+export const BookLink = styled.a`
+  text-decoration: none;
+  color: #e9e2d0;
+  padding: 10px;
+  font-size: 14px;
 `
