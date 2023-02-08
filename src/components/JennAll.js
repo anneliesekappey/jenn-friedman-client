@@ -4,27 +4,27 @@ import { JennText } from './JennText'
 import { JennDiv } from './Shared'
 
 export const JennAll = () => {
-  const [hover, setHover] = useState(false)
-  const onHover = () => {
-    setHover(true)
+  const [tap, setTap] = useState(false)
+  const onTap = () => {
+    setTap(true)
   }
 
-  const onLeave = () => {
-    setHover(false)
+  const onDoubleTap = () => {
+    setTap(false)
   }
 
   useEffect(() => {
-    onLeave()
+    onDoubleTap()
   }, [])
 
   return (
     <div
-      onMouseEnter={onHover}
-      onMouseLeave={onLeave}
+      onTouchStart={onTap}
+      onTouchEnd={onDoubleTap}
       role="textbox"
       tabIndex="-3"
     >
-      {hover ? (
+      {tap ? (
         <JennText />
       ) : (
         <JennDiv>

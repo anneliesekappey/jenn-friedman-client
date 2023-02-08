@@ -1,65 +1,39 @@
 import React from 'react'
+import './Footer.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
-} from './FooterStyles'
+  faYoutube,
+  faInstagram,
+  faFacebook,
+} from '@fortawesome/free-brands-svg-icons'
+import { faCopyright } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
   return (
-    <Box>
-      <h4 style={{ color: '#4f323b', textAlign: 'center', marginTop: '2px' }}>
-        Jenn Friedman: A New York City author and Eating Disorder Advocate
-      </h4>
-      <Container>
-        <Row>
-          <Column>
-            <Heading>Topics</Heading>
-            <FooterLink href="#">Veganism</FooterLink>
-            <FooterLink href="#">Eating Disorders</FooterLink>
-            <FooterLink href="#">Animal Rights</FooterLink>
-          </Column>
-          <Column>
-            <Heading>About Me</Heading>
-            <FooterLink href="#">Education</FooterLink>
-            <FooterLink href="#">History</FooterLink>
-            <FooterLink href="#">Music</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Contact</Heading>
-            <FooterLink href="#">Author</FooterLink>
-            <FooterLink href="#">Publisher</FooterLink>
-            <FooterLink href="#">Seeking Help</FooterLink>
-          </Column>
-          <Column>
-            <Heading>Social Media</Heading>
-            <FooterLink href="#">
-              <i className="fab fa-facebook-f">
-                <span style={{ marginLeft: '10px' }}>Facebook</span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-instagram">
-                <span style={{ marginLeft: '10px' }}>Instagram</span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-twitter">
-                <span style={{ marginLeft: '10px' }}>Twitter</span>
-              </i>
-            </FooterLink>
-            <FooterLink href="#">
-              <i className="fab fa-youtube">
-                <span style={{ marginLeft: '10px' }}>YouTube</span>
-              </i>
-            </FooterLink>
-          </Column>
-        </Row>
-      </Container>
-    </Box>
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="item1"></div>
+
+        <div className="item2">
+          <span style={{ paddingRight: 5 }}>Copyright </span>
+          <FontAwesomeIcon icon={faCopyright} />{' '}
+          <span style={{ paddingLeft: 5 }}>
+            {new Date().getFullYear()} Jenn Friedman. All Rights Reserved.
+          </span>
+        </div>
+        <a href="#top" target="_blank" className="item3">
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
+        <a href="#top" target="_blank" className="item4">
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
+        <a href="#top" target="_blank" className="item5">
+          <FontAwesomeIcon icon={faYoutube} />
+        </a>
+
+        {/* {false && <PrivacyModal click={true} />} */}
+      </div>
+    </footer>
   )
 }
 

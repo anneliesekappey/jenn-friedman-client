@@ -1,3 +1,17 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* footer {
+  background-color: gray;
+  text-align: center;
+  margin-top: auto;
+  padding: 8px;
+} */
