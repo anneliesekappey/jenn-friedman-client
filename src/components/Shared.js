@@ -60,7 +60,7 @@ export const JennTextbox = styled.p`
   outline: none;
   border: 1px solid gray;
   background-color: #6e5773;
-  font-size: 19px;
+  font-size: 17px;
 `
 export const AboutLink = styled.a`
   text-decoration: none;
