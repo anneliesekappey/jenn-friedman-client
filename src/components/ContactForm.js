@@ -1,65 +1,5 @@
-// import React, { useState } from 'react'
-// import { useNavigate } from 'react-router-dom'
-// import axios from 'axios'
-
-// export const ContactForm = () => {
-//   const [name, setName] = useState('')
-//   const [email, setEmail] = useState('')
-//   const [message, setMessage] = useState('')
-
-//   const navigate = useNavigate()
-
-//   const handleSubmit = async (e) => {
-//     e.preventDefault()
-
-//     const newContact = {
-//       name,
-//       email,
-//       message,
-//       created_at: new Date().toLocaleDateString(''),
-//     }
-
-//     console.log(newContact)
-//     try {
-//       const { data } = await axios.post(
-//         'https://ironrest.herokuapp.com/WDPT80-projects',
-//         newContact
-//       )
-//       const id = data.ops[0]._id
-//       navigate(`/project/${id}`)
-//     } catch (error) {
-//       console.log(error)
-//     }
-//   }
-
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <div>
-//         <label>name</label>
-//         <input
-//           type="text"
-//           value={name}
-//           onChange={(e) => setName(e.target.value)}
-//         />
-//       </div>
-//       <div>
-//         <label>Email</label>
-//         <textarea value={email} onChange={(e) => setEmail(e.target.value)} />
-//       </div>
-//       <div>
-//         <label>Message</label>
-//         <input
-//           type="text"
-//           value={message}
-//           onChange={(e) => setMessage(e.target.value)}
-//         />
-//       </div>
-//       <button> Send </button>
-//     </form>
-//   )
-// }
-
 import { useForm } from 'react-hook-form'
+import './ContactForm.css'
 
 const ContactForm = () => {
   const {
@@ -78,7 +18,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="ContactForm">
+    <div className="contact-form">
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
