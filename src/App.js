@@ -1,9 +1,9 @@
 import './App.css'
 import { NavBar } from './components/NavBar.js'
 import { Home } from './pages/Home.js'
-import { About } from './pages/About.js'
-import { Connect } from './pages/Connect.js'
-import { TheBook } from './pages/TheBook.js'
+import { AboutTheAuthor } from './pages/AboutTheAuthor.js'
+import { Contact } from './pages/Contact.js'
+import { AboutTheBook } from './pages/AboutTheBook.js'
 import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
@@ -12,9 +12,9 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/connect" element={<Connect />} />
-        <Route path="/book" element={<TheBook />} />
+        <Route path="/abouttheauthor" element={<AboutTheAuthor />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/aboutthebook" element={<AboutTheBook />} />
       </Routes>
     </div>
   )

@@ -1,26 +1,38 @@
 import React from 'react'
-import { AboutLink, BookLink, ConnectLink, HomeIconStyle, Nav } from './Shared'
+import {
+  AboutLink,
+  BlogLink,
+  BookLink,
+  ConnectLink,
+  HomeIconStyle,
+  Nav,
+} from './Shared'
 import HomeIcon from '../images/HomeIcon.png'
 
 export const NavBar = () => {
   return (
     <div>
       <Nav>
+        <BookLink>
+          <a href="/aboutthebook" style={{ textDecoration: 'none' }}>
+            About The Book
+          </a>
+        </BookLink>
         <AboutLink>
-          <a href="/about" style={{ textDecoration: 'none' }}>
-            About Jenn
+          <a href="/abouttheauthor" style={{ textDecoration: 'none' }}>
+            About The Author
           </a>
         </AboutLink>
         <ConnectLink>
-          <a href="/connect" style={{ textDecoration: 'none' }}>
-            Connect
+          <a href="/contact" style={{ textDecoration: 'none' }}>
+            Contact
           </a>
         </ConnectLink>
-        <BookLink>
-          <a href="/book" style={{ textDecoration: 'none' }}>
-            The Book
+        <BlogLink>
+          <a href="/blog" style={{ textDecoration: 'none' }}>
+            Blog
           </a>
-        </BookLink>
+        </BlogLink>
         <HomeIconStyle>
           <a href="/">
             <img src={HomeIcon} alt="Home" height="80px" />

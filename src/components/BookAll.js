@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Jenn from '../images/Jenn.jpg'
-import { JennText } from './JennText'
-import { JennDiv } from './Shared'
+import Cover from '../images/Cover.jpg'
+import { BookText } from './BookText.js'
+import { BookDiv } from './Shared'
 
-export const JennAll = () => {
+export const BookAll = () => {
   const [tap, setTap] = useState(false)
   const [click, setClick] = useState(false)
 
@@ -38,11 +38,15 @@ export const JennAll = () => {
       tabIndex="-3"
     >
       {tap || click ? (
-        <JennText />
+        <BookText />
       ) : (
-        <JennDiv>
-          <img src={Jenn} alt="Jenn Friedman" height="320px" />
-        </JennDiv>
+        <BookDiv>
+          <img
+            src={Cover}
+            alt="Veganism and Eating Disorder Recovery Cover"
+            height="390px"
+          />
+        </BookDiv>
       )}
     </div>
   )

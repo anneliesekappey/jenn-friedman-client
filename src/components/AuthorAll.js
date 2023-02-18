@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Jenn from '../images/Jenn.jpg'
-import { JennText } from './JennText'
-import { JennDiv } from './Shared'
+import Jenn2 from '../images/Jenn2.jpg'
+import { AuthorText } from './AuthorText.js'
+import { AuthorDiv } from './Shared'
 
-export const JennAll = () => {
+export const AuthorAll = () => {
   const [tap, setTap] = useState(false)
   const [click, setClick] = useState(false)
 
@@ -38,11 +38,11 @@ export const JennAll = () => {
       tabIndex="-3"
     >
       {tap || click ? (
-        <JennText />
+        <AuthorText />
       ) : (
-        <JennDiv>
-          <img src={Jenn} alt="Jenn Friedman" height="320px" />
-        </JennDiv>
+        <AuthorDiv>
+          <img src={Jenn2} alt="Jenn Friedman" height="360px" />
+        </AuthorDiv>
       )}
     </div>
   )

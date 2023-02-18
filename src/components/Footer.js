@@ -18,7 +18,8 @@ const Footer = () => {
           <span style={{ paddingRight: 5 }}>Copyright </span>
           <FontAwesomeIcon icon={faCopyright} />{' '}
           <span style={{ paddingLeft: 5 }}>
-            {new Date().getFullYear()} Jenn Friedman. All Rights Reserved.
+            {new Date().getFullYear()} Eating Disorders and Veganism. All Rights
+            Reserved.
           </span>
         </div>
         <a href="#top" target="_blank" className="item3">
