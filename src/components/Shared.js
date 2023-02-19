@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from './Responsiveness.js'
 
 export const Nav = styled.nav`
   height: 70px;
@@ -61,6 +62,49 @@ export const JennTextbox = styled.p`
   border: 1px solid gray;
   background-color: #6e5773;
   font-size: 17px;
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 9.7px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    font-size: 8.5px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    font-size: 9.2px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    width: 95%;
+    font-size: 12px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1024px;
+    width: 96%;
+    font-size: 14px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 15px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 24px;
+    height: 420px;
+  }
 `
 export const AboutLink = styled.a`
   text-decoration: none;
@@ -105,6 +149,49 @@ export const BookTextbox = styled.p`
   border: 1px solid gray;
   background-color: #e8e8e8;
   font-size: 15px;
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 9.7px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    font-size: 8.5px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    font-size: 9.2px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    width: 95%;
+    font-size: 12px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1024px;
+    width: 96%;
+    font-size: 14px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 15px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 24px;
+    height: 420px;
+  }
 `
 export const BookDiv = styled.div`
   display: flex;
@@ -140,6 +227,49 @@ export const AuthorTextbox = styled.p`
   border: 1px solid gray;
   background-color: #e9e2d0;
   font-size: 15px;
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 9.7px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    font-size: 8.5px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    font-size: 9.2px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    width: 95%;
+    font-size: 12px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1024px;
+    width: 96%;
+    font-size: 14px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 15px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 24px;
+    height: 420px;
+  }
 `
 export const AuthorDiv = styled.div`
   display: flex;

@@ -50,3 +50,77 @@
     transition: box-shadow 0.2s;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact-form {
+        font-size: 12px;
+        padding-left: 3px;
+    }
+    .container {
+        font-size: 7px;
+    }
+    .form-control,
+    .submit-btn {
+        font-size: 12px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contact-form {
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    .container {
+        font-size: 9px;
+    }
+    .form-control,
+    .submit-btn {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contact-form {
+        font-size: 16px;
+        padding-left: 6px;
+    }
+    .container {
+        font-size: 11px;
+    }
+    .form-control,
+    .submit-btn {
+        font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contact-form {
+        font-size: 18px;
+        padding-left: 8px;
+    }
+    .container {
+        font-size: 13px;
+    }
+    .form-control,
+    .submit-btn {
+        font-size: 18px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .contact-form {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .container {
+        font-size: 15px;
+    }
+    .form-control,
+    .submit-btn {
+        font-size: 20px;
+    }
+}
