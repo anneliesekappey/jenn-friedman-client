@@ -88,8 +88,8 @@ export const JennTextbox = styled.p`
   }
 
   @media ${devices.laptop} {
-    max-width: 1024px;
-    width: 100%;
+    max-width: 1324px;
+    width: 96%;
     font-size: 18px;
   }
 
@@ -175,7 +175,7 @@ export const BookTextbox = styled.p`
   }
 
   @media ${devices.laptop} {
-    max-width: 1024px;
+    max-width: 1324px;
     width: 96%;
     font-size: 14px;
   }
@@ -253,7 +253,7 @@ export const AuthorTextbox = styled.p`
   }
 
   @media ${devices.laptop} {
-    max-width: 1024px;
+    max-width: 1324px;
     width: 96%;
     font-size: 14px;
   }
