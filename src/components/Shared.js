@@ -66,43 +66,43 @@ export const JennTextbox = styled.p`
   @media ${devices.mobileL} {
     max-width: 425px;
     width: 95%;
-    font-size: 9.7px;
+    font-size: 11px;
   }
 
   @media ${devices.mobileS} {
     max-width: 324px;
     width: 90%;
-    font-size: 8.5px;
+    font-size: 9.5px;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
     width: 91%;
-    font-size: 9.2px;
+    font-size: 10px;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
     width: 95%;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   @media ${devices.laptop} {
     max-width: 1024px;
-    width: 96%;
-    font-size: 14px;
+    width: 100%;
+    font-size: 18px;
   }
 
   @media ${devices.laptopL} {
     max-width: 1440px;
     width: 97%;
-    font-size: 15px;
+    font-size: 20px;
   }
 
   @media ${devices.desktop} {
     max-width: 2560px;
     width: 97%;
-    font-size: 24px;
+    font-size: 26px;
     height: 420px;
   }
 `
