@@ -15,6 +15,45 @@ export const Nav = styled.nav`
   font-family: 'Nunito';
   justify-content: right;
   list-style-type: none;
+
+  @media ${devices.mobileL} {
+    max-width: 426px;
+    width: 98%;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 100%;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 97%;
+    font-size: 10px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    width: 97%;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    width: 98%;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 20px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 26px;
+    height: 420px;
+  }
 `
 export const HomeLink = styled.a`
   text-decoration: none;
@@ -25,6 +64,48 @@ export const HomeLink = styled.a`
   transition: all 0.5s;
   &:hover {
     border: 1px solid #f0f0f0;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 14px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    font-size: 13px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    font-size: 15px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    font-size: 17px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 20px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 26px;
+    height: 420px;
   }
 `
 export const JennDiv = styled.div`
@@ -47,26 +128,22 @@ export const JennDiv = styled.div`
 
   @media ${devices.mobileS} {
     max-width: 324px;
-    width: 90%;
-    font-size: 9.5px;
+    flex-direction: column;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
-    width: 91%;
-    font-size: 10px;
+    flex-direction: column;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
-    width: 95%;
-    font-size: 14px;
+    flex-direction: row;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
-    width: 96%;
-    font-size: 18px;
+    flex-direction: row;
   }
 
   @media ${devices.laptopL} {
@@ -99,7 +176,53 @@ export const JennTextbox = styled.p`
   outline: none;
   border: 1px solid #f8f8f8;
   background-color: #ffffff;
-  font-size: 17px;
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 11px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    height: 180px;
+    font-size: 9px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 93%;
+    height: 200px;
+    font-size: 11px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    width: 95%;
+    height: 250px;
+    font-size: 13px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    width: 97%;
+    height: 275px;
+    font-size: 16px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 20px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 26px;
+    height: 420px;
+  }
 `
 export const AboutLink = styled.a`
   text-decoration: none;
@@ -110,6 +233,48 @@ export const AboutLink = styled.a`
   transition: all 0.5s;
   &:hover {
     border: 1px solid #f0f0f0;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 11px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    font-size: 13px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    font-size: 15px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    font-size: 17px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 20px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 26px;
+    height: 420px;
   }
 `
 export const ConnectLink = styled.a`
@@ -122,6 +287,48 @@ export const ConnectLink = styled.a`
   &:hover {
     border: 1px solid #f0f0f0;
   }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 11px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    font-size: 13px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    font-size: 15px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    font-size: 17px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 20px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 26px;
+    height: 420px;
+  }
 `
 export const BookLink = styled.a`
   text-decoration: none;
@@ -133,6 +340,48 @@ export const BookLink = styled.a`
   &:hover {
     border: 1px solid #f0f0f0;
   }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 11px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    font-size: 13px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    font-size: 15px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    font-size: 17px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 20px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 26px;
+    height: 420px;
+  }
 `
 export const BlogLink = styled.a`
   text-decoration: none;
@@ -143,6 +392,48 @@ export const BlogLink = styled.a`
   transition: all 0.9s;
   &:hover {
     border: 1px solid #f0f0f0;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 11px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    font-size: 13px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    font-size: 15px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    font-size: 17px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 20px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 26px;
+    height: 420px;
   }
 `
 export const BookDiv = styled.div`
@@ -308,6 +599,49 @@ export const BookButton = styled.a`
     border: 1px solid #f0f0f0;
     border-radius: 1px;
   }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 11px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    font-size: 9px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    font-size: 10px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    width: 95%;
+    font-size: 12px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    width: 96%;
+    font-size: 16px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    font-size: 20px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    font-size: 26px;
+    height: 420px;
+  }
 `
 export const BookBuyButton = styled.a`
   text-decoration: none;
@@ -323,5 +657,48 @@ export const BookBuyButton = styled.a`
   &:hover {
     border: 1px solid #f0f0f0;
     border-radius: 1px;
+  }
+`
+export const Image = styled.img`
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 52%;
+    height: 240px;
+  }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 45%;
+    height: 180px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 48%;
+    height: 210px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    width: 65%;
+    height: 230px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    width: 72%;
+    height: 310px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 97%;
+    height: 420px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 97%;
+    height: 480px;
   }
 `
