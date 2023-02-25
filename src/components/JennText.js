@@ -6,10 +6,15 @@ export const JennText = () => {
     <div>
       <JennTextbox>
         <p>
-          "Hi, I'm Jenn Friedman, a counselor, writer, and musician. I obtained
-          my counseling master's degree at Goldsmiths, University of London and
-          my New York State licensure prerequisites at the University at
-          Buffalo. I currently provide therapy in New York City."
+          Veganism and eating disorders are often associated with one another in
+          the eating disorder field. It is widely believed that following the
+          dietary component of veganism may inhibit recovery from an eating
+          disorder and that veganism, for an eating disordered person, is a form
+          of restriction. Relatedly, many eating disorder treatment centers do
+          not offer vegan meal plans, posing unique challenges to vegans in need
+          of treatment. Since both eating disorders and veganism are on the
+          rise, it is essential that we broaden the conversation around this
+          topic.
         </p>
       </JennTextbox>
     </div>

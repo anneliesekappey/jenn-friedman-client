@@ -4,10 +4,9 @@ import {
   BlogLink,
   BookLink,
   ConnectLink,
-  HomeIconStyle,
+  HomeLink,
   Nav,
 } from './Shared'
-import HomeIcon from '../images/HomeIcon.png'
 
 export const NavBar = () => {
   return (
@@ -33,11 +32,11 @@ export const NavBar = () => {
             Blog
           </a>
         </BlogLink>
-        <HomeIconStyle>
-          <a href="/">
-            <img src={HomeIcon} alt="Home" height="80px" />
+        <HomeLink>
+          <a href="/" style={{ textDecoration: 'none' }}>
+            Home
           </a>
-        </HomeIconStyle>
+        </HomeLink>
       </Nav>
     </div>
   )

@@ -8,24 +8,23 @@ export const Nav = styled.nav`
   align-items: center;
   position: relative;
   padding: 5px;
-  background-color: #6e5773;
-  border: 2px 2px solid #4f323b;
-  border-radius: 6px;
-  color: #e9e2d0;
-  box-shadow: 0 2px 2px 2px #4f323b;
-  font-family: 'Verdana';
-  font-size: 20px;
+  background-color: #f8f8f8;
+  border: 2px 2px solid #f0f0f0;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 2px #f0f0f0;
+  font-family: 'Nunito';
   justify-content: right;
   list-style-type: none;
 `
-export const HomeIconStyle = styled.li`
-  border-radius: 180px;
-  border: 2px solid transparent;
-  padding: 0.2px;
+export const HomeLink = styled.a`
+  text-decoration: none;
+  color: #909090;
+  padding: 18px;
+  font-size: 16px;
   cursor: pointer;
   transition: all 0.5s;
   &:hover {
-    border: 2px solid #4f323b;
+    border: 1px solid #f0f0f0;
   }
 `
 export const JennDiv = styled.div`
@@ -34,33 +33,30 @@ export const JennDiv = styled.div`
   width: 100%;
   align-items: center;
   flex-direction: row;
-  cursor: pointer;
   text-decoration: none;
   justify-content: center;
-  border-radius: 5px;
-  background-color: #e9e2d0;
-  box-shadow: 3px 3px 2px #4f323b;
-  padding: 8px;
-  margin: 6px 5px;
+  background-color: #ffffff;
+  padding: 4px 0px 4px 0px;
+  margin: 24px 0px 1px 0px;
 `
 
 export const JennTextbox = styled.p`
-  padding: 20px;
+  padding: 10px;
   display: flex;
   float: center;
   align-items: center;
-  margin: 34px 6px 5px 3px;
-  border-radius: 6px;
+  margin: 14px 6px 2px 3px;
+  border-radius: 2px;
   align-text: center;
   width: 100%;
-  height: 150px;
-  color: white;
-  font-family: 'Verdana';
-  line-height: 1.7;
+  height: 140px;
+  color: #909090;
+  font-family: 'Nunito';
+  line-height: 1.6;
   position: relative;
   outline: none;
-  border: 1px solid gray;
-  background-color: #6e5773;
+  border: 1px solid #f8f8f8;
+  background-color: #ffffff;
   font-size: 17px;
 
   @media ${devices.mobileL} {
@@ -108,47 +104,78 @@ export const JennTextbox = styled.p`
 `
 export const AboutLink = styled.a`
   text-decoration: none;
-  color: #e9e2d0;
-  padding: 10px;
-  font-size: 14px;
+  color: #909090;
+  padding: 18px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    border: 1px solid #f0f0f0;
+  }
 `
 export const ConnectLink = styled.a`
   text-decoration: none;
-  color: #e9e2d0;
-  padding: 10px;
-  font-size: 14px;
+  color: #909090;
+  padding: 18px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    border: 1px solid #f0f0f0;
+  }
 `
 export const BookLink = styled.a`
   text-decoration: none;
-  color: #e9e2d0;
-  padding: 10px;
-  font-size: 14px;
+  color: #909090;
+  padding: 18px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    border: 1px solid #f0f0f0;
+  }
 `
 export const BlogLink = styled.a`
   text-decoration: none;
-  color: #e9e2d0;
-  padding: 10px;
-  font-size: 14px;
+  color: #909090;
+  padding: 18px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.9s;
+  &:hover {
+    border: 1px solid #f0f0f0;
+  }
 `
-export const BookTextbox = styled.p`
-  padding: 16px;
+export const BookDiv = styled.div`
   display: flex;
   float: center;
-  align-items: center;
-  margin: 14px 10px;
-  border-radius: 6px;
-  align-text: center;
-  margin: 6px;
   width: 100%;
-  height: 330px;
-  color: #4f323b;
-  font-family: 'Verdana';
-  line-height: 2.4;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 4px 0px 4px 0px;
+  margin: 24px 0px 1px 0px;
+`
+export const BookTextbox = styled.p`
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  float: center;
+  align-items: center;
+  margin: 2px 4px 2px 3px;
+  border-radius: 2px;
+  align-text: center;
+  width: 100%;
+  height: 286px;
+  color: #909090;
+  font-family: 'Nunito';
+  line-height: 1.6;
   position: relative;
   outline: none;
-  border: 1px solid gray;
-  background-color: #e8e8e8;
-  font-size: 15px;
+  border: 1px solid #f8f8f8;
+  background-color: #ffffff;
 
   @media ${devices.mobileL} {
     max-width: 425px;
@@ -177,13 +204,13 @@ export const BookTextbox = styled.p`
   @media ${devices.laptop} {
     max-width: 1324px;
     width: 96%;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   @media ${devices.laptopL} {
     max-width: 1440px;
     width: 97%;
-    font-size: 15px;
+    font-size: 18px;
   }
 
   @media ${devices.desktop} {
@@ -192,21 +219,6 @@ export const BookTextbox = styled.p`
     font-size: 24px;
     height: 420px;
   }
-`
-export const BookDiv = styled.div`
-  display: flex;
-  float: center;
-  width: 100%;
-  align-items: center;
-  flex-direction: row;
-  cursor: pointer;
-  text-decoration: none;
-  justify-content: center;
-  border-radius: 5px;
-  background-color: #f8f8f8;
-  box-shadow: 3px 3px 2px #4f323b;
-  padding: 8px;
-  margin: 6px 5px;
 `
 export const AuthorTextbox = styled.p`
   padding: 16px;
@@ -285,4 +297,36 @@ export const AuthorDiv = styled.div`
   box-shadow: 3px 3px 2px #4f323b;
   padding: 8px;
   margin: 6px 5px;
+`
+export const BookButton = styled.a`
+  text-decoration: none;
+  justify-content: center;
+  color: #707070;
+  padding: 14px;
+  width: 14.8%;
+  display: grid;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    border: 1px solid #f0f0f0;
+    border-radius: 1px;
+  }
+`
+export const BookBuyButton = styled.a`
+  text-decoration: none;
+  justify-content: center;
+  color: #909090;
+  padding: 14px;
+  width: 14.7%;
+  display: grid;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    border: 1px solid #f0f0f0;
+    border-radius: 1px;
+  }
 `

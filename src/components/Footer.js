@@ -15,11 +15,10 @@ const Footer = () => {
         <div className="item1"></div>
 
         <div className="item2">
-          <span style={{ paddingRight: 5 }}>Copyright </span>
+          <span style={{ paddingRight: 2 }}>Copyright </span>
           <FontAwesomeIcon icon={faCopyright} />{' '}
-          <span style={{ paddingLeft: 5 }}>
-            {new Date().getFullYear()} Eating Disorders and Veganism. All Rights
-            Reserved.
+          <span style={{ paddingLeft: 2 }}>
+            {new Date().getFullYear()} Eating Disorders and Veganism
           </span>
         </div>
         <a href="#top" target="_blank" className="item3">
