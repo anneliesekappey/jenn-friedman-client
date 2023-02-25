@@ -13,24 +13,26 @@
     text-align: center;
 }
 
-.container {
-    width: 100%;
-    outline: none;
-    padding: 38px 7px;
-    border: 1px solid #e0e6e8;
-    border-radius: 4px;
-    font-size: 1rem;
-    color: #888888;
+.row {
+    padding: 8px;
+}
+
+.col-6 {
+    padding: 8px;
+}
+
+.col {
+    padding: 4px;
 }
 
 .submit-btn {
-  width: 45%;
+  width: 25%;
   min-width: 64px;
   border: 0;
   border-radius: 4px;
   padding: 8px 16px;
   outline: none;
-  background-color: #6e5773;
+  background-color: #4f81c7;
   color: #ffffff;
   font-size: 0.875rem;
   font-weight: 1.5;
@@ -45,7 +47,7 @@
     padding: 8px 16px;
     border: 1px solid #e0e6e8;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #888888;
     transition: box-shadow 0.2s;
 }

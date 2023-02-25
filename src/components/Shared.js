@@ -38,26 +38,6 @@ export const JennDiv = styled.div`
   background-color: #ffffff;
   padding: 4px 0px 4px 0px;
   margin: 24px 0px 1px 0px;
-`
-
-export const JennTextbox = styled.p`
-  padding: 10px;
-  display: flex;
-  float: center;
-  align-items: center;
-  margin: 14px 6px 2px 3px;
-  border-radius: 2px;
-  align-text: center;
-  width: 100%;
-  height: 140px;
-  color: #909090;
-  font-family: 'Nunito';
-  line-height: 1.6;
-  position: relative;
-  outline: none;
-  border: 1px solid #f8f8f8;
-  background-color: #ffffff;
-  font-size: 17px;
 
   @media ${devices.mobileL} {
     max-width: 425px;
@@ -101,6 +81,25 @@ export const JennTextbox = styled.p`
     font-size: 26px;
     height: 420px;
   }
+`
+export const JennTextbox = styled.p`
+  padding: 10px;
+  display: flex;
+  float: center;
+  align-items: center;
+  margin: 14px 6px 2px 3px;
+  border-radius: 2px;
+  align-text: center;
+  width: 100%;
+  height: 140px;
+  color: #909090;
+  font-family: 'Nunito';
+  line-height: 1.6;
+  position: relative;
+  outline: none;
+  border: 1px solid #f8f8f8;
+  background-color: #ffffff;
+  font-size: 17px;
 `
 export const AboutLink = styled.a`
   text-decoration: none;
@@ -157,25 +156,6 @@ export const BookDiv = styled.div`
   background-color: #ffffff;
   padding: 4px 0px 4px 0px;
   margin: 24px 0px 1px 0px;
-`
-export const BookTextbox = styled.p`
-  padding: 8px;
-  display: flex;
-  flex-direction: column;
-  float: center;
-  align-items: center;
-  margin: 2px 4px 2px 3px;
-  border-radius: 2px;
-  align-text: center;
-  width: 100%;
-  height: 286px;
-  color: #909090;
-  font-family: 'Nunito';
-  line-height: 1.6;
-  position: relative;
-  outline: none;
-  border: 1px solid #f8f8f8;
-  background-color: #ffffff;
 
   @media ${devices.mobileL} {
     max-width: 425px;
@@ -220,25 +200,55 @@ export const BookTextbox = styled.p`
     height: 420px;
   }
 `
-export const AuthorTextbox = styled.p`
-  padding: 16px;
+export const BookTextbox = styled.p`
+  padding: 8px;
   display: flex;
+  flex-direction: column;
   float: center;
   align-items: center;
-  margin: 14px 10px;
-  border-radius: 6px;
+  margin: 2px 4px 2px 3px;
+  border-radius: 2px;
   align-text: center;
-  margin: 6px;
   width: 100%;
-  height: 330px;
-  color: #4f323b;
-  font-family: 'Verdana';
-  line-height: 2.4;
+  height: 286px;
+  color: #909090;
+  font-family: 'Nunito';
+  line-height: 1.6;
   position: relative;
   outline: none;
-  border: 1px solid gray;
-  background-color: #e9e2d0;
-  font-size: 15px;
+  border: 1px solid #f8f8f8;
+  background-color: #ffffff;
+`
+export const AuthorTextbox = styled.p`
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  float: center;
+  align-items: center;
+  margin: 2px 4px 2px 3px;
+  border-radius: 2px;
+  align-text: center;
+  width: 100%;
+  height: 286px;
+  color: #909090;
+  font-family: 'Nunito';
+  line-height: 1.6;
+  position: relative;
+  outline: none;
+  border: 1px solid #f8f8f8;
+  background-color: #ffffff;
+`
+export const AuthorDiv = styled.div`
+  display: flex;
+  float: center;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 4px 0px 4px 0px;
+  margin: 24px 0px 1px 0px;
 
   @media ${devices.mobileL} {
     max-width: 425px;
@@ -267,13 +277,13 @@ export const AuthorTextbox = styled.p`
   @media ${devices.laptop} {
     max-width: 1324px;
     width: 96%;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   @media ${devices.laptopL} {
     max-width: 1440px;
     width: 97%;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   @media ${devices.desktop} {
@@ -282,21 +292,6 @@ export const AuthorTextbox = styled.p`
     font-size: 24px;
     height: 420px;
   }
-`
-export const AuthorDiv = styled.div`
-  display: flex;
-  float: center;
-  width: 100%;
-  align-items: center;
-  flex-direction: row;
-  cursor: pointer;
-  text-decoration: none;
-  justify-content: center;
-  border-radius: 5px;
-  background-color: #ffc9bb;
-  box-shadow: 3px 3px 2px #4f323b;
-  padding: 8px;
-  margin: 6px 5px;
 `
 export const BookButton = styled.a`
   text-decoration: none;
