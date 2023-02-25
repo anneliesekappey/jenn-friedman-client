@@ -166,7 +166,7 @@ export const JennTextbox = styled.p`
   align-items: center;
   margin: 14px 6px 2px 3px;
   border-radius: 2px;
-  align-text: center;
+  align-text: left;
   width: 100%;
   height: 140px;
   color: #909090;
@@ -206,9 +206,9 @@ export const JennTextbox = styled.p`
 
   @media ${devices.laptop} {
     max-width: 1324px;
-    width: 97%;
-    height: 275px;
-    font-size: 16px;
+    width: 98%;
+    height: 285px;
+    font-size: 17px;
   }
 
   @media ${devices.laptopL} {
@@ -626,7 +626,7 @@ export const BookButton = styled.a`
 
   @media ${devices.laptop} {
     max-width: 1324px;
-    width: 96%;
+    width: 18%;
     font-size: 16px;
   }
 
@@ -686,8 +686,8 @@ export const Image = styled.img`
 
   @media ${devices.laptop} {
     max-width: 1324px;
-    width: 72%;
-    height: 310px;
+    width: 35%;
+    height: 350px;
   }
 
   @media ${devices.laptopL} {
