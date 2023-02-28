@@ -6,7 +6,11 @@ export const AuthorAll = () => {
   return (
     <div>
       <AuthorDiv>
-        <Image src={Jenn2} alt="Jenn Friedman" />
+        <Image
+          src={Jenn2}
+          alt="Jenn Friedman"
+          style={{ height: '88%', width: '88%' }}
+        />
         <AuthorText></AuthorText>
       </AuthorDiv>
     </div>

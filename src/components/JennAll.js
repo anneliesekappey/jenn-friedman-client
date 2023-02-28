@@ -6,7 +6,11 @@ export const JennAll = () => {
   return (
     <div>
       <JennDiv>
-        <Image src={Cover} alt="Veganism and Eating Disorder Recovery" />
+        <Image
+          src={Cover}
+          alt="Veganism and Eating Disorder Recovery"
+          style={{ width: '30%', height: '30%' }}
+        />
         <JennText></JennText>
       </JennDiv>
     </div>

@@ -13,7 +13,6 @@ export const Nav = styled.nav`
   border-radius: 3px;
   box-shadow: 0 2px 2px 2px #f0f0f0;
   font-family: 'Nunito';
-  justify-content: right;
   list-style-type: none;
 
   @media ${devices.mobileS} {
@@ -23,13 +22,13 @@ export const Nav = styled.nav`
 
   @media ${devices.mobileM} {
     max-width: 374px;
-    width: 97%;
+    width: 98%;
     font-size: 10px;
   }
 
   @media ${devices.mobileL} {
     max-width: 424px;
-    width: 98%;
+    width: 99%;
   }
 
   @media ${devices.tablet} {
@@ -112,12 +111,11 @@ export const JennDiv = styled.div`
   float: center;
   width: 100%;
   align-items: center;
-  flex-direction: row;
   text-decoration: none;
   justify-content: center;
   background-color: #ffffff;
   padding: 4px 0px 4px 0px;
-  margin: 24px 0px 1px 0px;
+  margin: 8px 0px 1px 0px;
 
   @media ${devices.mobileS} {
     max-width: 324px;
@@ -142,6 +140,7 @@ export const JennDiv = styled.div`
 
   @media ${devices.laptop} {
     max-width: 1324px;
+    width: 97%;
     flex-direction: row;
   }
 
@@ -164,8 +163,6 @@ export const JennTextbox = styled.p`
   align-items: center;
   margin: 14px 6px 2px 3px;
   border-radius: 2px;
-  width: 100%;
-  height: 140px;
   color: #909090;
   font-family: 'Nunito';
   line-height: 1.6;
@@ -204,8 +201,8 @@ export const JennTextbox = styled.p`
   @media ${devices.laptop} {
     max-width: 1324px;
     width: 98%;
-    height: 285px;
-    font-size: 17px;
+    height: 295px;
+    font-size: 19px;
   }
 
   @media ${devices.laptopL} {
@@ -447,45 +444,49 @@ export const BookDiv = styled.div`
 
   @media ${devices.mobileS} {
     max-width: 324px;
-    width: 90%;
-    font-size: 8.5px;
+    width: 95%;
+    flex-direction: column;
+    font-size: 9px;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
-    width: 91%;
-    font-size: 9.2px;
+    width: 96%;
+    flex-direction: column;
+    font-size: 10px;
   }
 
   @media ${devices.mobileL} {
     max-width: 425px;
-    width: 95%;
-    font-size: 9.7px;
+    flex-direction: column;
+    width: 97%;
+    font-size: 11px;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
-    width: 95%;
-    font-size: 12px;
+    width: 96%;
+    flex-direction: row;
+    font-size: 11px;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
-    width: 96%;
-    font-size: 16px;
+    width: 95%;
+    font-size: 15px;
   }
 
   @media ${devices.laptopL} {
     max-width: 1440px;
     width: 97%;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   @media ${devices.desktop} {
     max-width: 2560px;
-    width: 97%;
-    font-size: 24px;
-    height: 420px;
+    width: 98%;
+    height: 550px;
+    font-size: 18px;
   }
 `
 export const BookTextbox = styled.p`
@@ -498,7 +499,6 @@ export const BookTextbox = styled.p`
   border-radius: 2px;
   align-text: center;
   width: 100%;
-  height: 286px;
   color: #909090;
   font-family: 'Nunito';
   line-height: 1.6;
@@ -536,49 +536,58 @@ export const AuthorDiv = styled.div`
   justify-content: center;
   background-color: #ffffff;
   padding: 4px 0px 4px 0px;
-  margin: 24px 0px 1px 0px;
+  margin: 6px 0px 1px 0px;
 
   @media ${devices.mobileS} {
     max-width: 324px;
-    width: 90%;
-    font-size: 8.5px;
+    width: 96%;
+    flex-direction: column;
+    font-size: 9px;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
-    width: 91%;
-    font-size: 9.2px;
+    width: 95%;
+    flex-direction: column;
+    font-size: 10.5px;
   }
 
   @media ${devices.mobileL} {
     max-width: 425px;
-    width: 95%;
-    font-size: 9.7px;
+    width: 96%;
+    flex-direction: column;
+    font-size: 11.5px;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
-    width: 95%;
-    font-size: 12px;
+    width: 98%;
+    flex-direction: row;
+    height: 400px;
+    font-size: 11.5px;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
-    width: 96%;
-    font-size: 15px;
+    width: 97%;
+    flex-direction: row;
+    font-size: 15.6px;
   }
 
   @media ${devices.laptopL} {
     max-width: 1440px;
-    width: 97%;
-    font-size: 16px;
+    width: 98%;
+    height: 500px;
+    flex-direction: row;
+    font-size: 17px;
   }
 
   @media ${devices.desktop} {
     max-width: 2560px;
-    width: 97%;
-    font-size: 24px;
-    height: 420px;
+    width: 99%;
+    flex-direction: row;
+    font-size: 18.5px;
+    height: 560px;
   }
 `
 export const BookButton = styled.a`
@@ -617,27 +626,30 @@ export const BookButton = styled.a`
 
   @media ${devices.tablet} {
     max-width: 768px;
-    width: 95%;
+    width: 96%;
+    height: 50px;
     font-size: 12px;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
-    width: 18%;
+    width: 20%;
+    height: 50px;
     font-size: 16px;
   }
 
   @media ${devices.laptopL} {
     max-width: 1440px;
-    width: 97%;
+    width: 98%;
+    height: 120px;
     font-size: 20px;
   }
 
   @media ${devices.desktop} {
     max-width: 2560px;
-    width: 97%;
+    width: 98%;
+    height: 160px;
     font-size: 26px;
-    height: 420px;
   }
 `
 export const BookBuyButton = styled.a`
@@ -655,47 +667,104 @@ export const BookBuyButton = styled.a`
     border: 1px solid #f0f0f0;
     border-radius: 1px;
   }
+
+  @media ${devices.mobileS} {
+    max-width: 324px;
+    width: 90%;
+    font-size: 9px;
+  }
+
+  @media ${devices.mobileM} {
+    max-width: 374px;
+    width: 91%;
+    height: 40px;
+    font-size: 10px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    height: 60px;
+    font-size: 11px;
+  }
+
+  @media ${devices.tablet} {
+    max-width: 768px;
+    width: 96%;
+    height: 70px;
+    font-size: 12px;
+  }
+
+  @media ${devices.laptop} {
+    max-width: 1324px;
+    width: 15.4%;
+    height: 64px;
+    font-size: 16px;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 1440px;
+    width: 98%;
+    height: 120px;
+    font-size: 20px;
+  }
+
+  @media ${devices.desktop} {
+    max-width: 2560px;
+    width: 98%;
+    height: 150px;
+    font-size: 26px;
+  }
 `
 export const Image = styled.img`
   @media ${devices.mobileS} {
     max-width: 324px;
     width: 45%;
-    height: 180px;
+    height: 45%;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
     width: 48%;
-    height: 210px;
+    height: 48%;
   }
 
   @media ${devices.mobileL} {
     max-width: 425px;
-    width: 52%;
-    height: 240px;
+    width: 51%;
+    padding-left: 12px;
+    height: 51%;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
-    width: 65%;
-    height: 230px;
+    padding-top: 50px;
+    padding-right: 3px;
+    width: 54%;
+    height: 54%;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
-    width: 35%;
-    height: 350px;
+    padding-top: 60px;
+    padding-right: 4px;
+    width: 67%;
+    height: 67%;
   }
 
   @media ${devices.laptopL} {
     max-width: 1440px;
-    width: 97%;
-    height: 420px;
+    padding-top: 80px;
+    padding-right: 6px;
+    width: 96%;
+    height: 96%;
   }
 
   @media ${devices.desktop} {
     max-width: 2560px;
-    width: 97%;
-    height: 480px;
+    padding-top: 110px;
+    padding-right: 7px;
+    width: 94%;
+    height: 94%;
   }
 `

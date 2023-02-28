@@ -5,7 +5,7 @@ export const AuthorText = () => {
   return (
     <div>
       <AuthorTextbox>
-        <h2
+        <h3
           style={{
             color: '#909090',
             fontFamily: 'Nunito',
@@ -14,7 +14,7 @@ export const AuthorText = () => {
           }}
         >
           Jenn Friedman
-        </h2>
+        </h3>
         <p>
           Jenn Friedman is a mental health counselor, author, and musician from
           New York City. She obtained her master’s degree in Counseling from
