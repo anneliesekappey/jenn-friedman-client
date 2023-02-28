@@ -12,6 +12,11 @@ export const NavBar = () => {
   return (
     <div>
       <Nav>
+        <HomeLink>
+          <a href="/" style={{ textDecoration: 'none' }}>
+            Home
+          </a>
+        </HomeLink>
         <BookLink>
           <a href="/aboutthebook" style={{ textDecoration: 'none' }}>
             About The Book
@@ -29,14 +34,9 @@ export const NavBar = () => {
         </ConnectLink>
         <BlogLink>
           <a href="/blog" style={{ textDecoration: 'none' }}>
-            Blog
+            News
           </a>
         </BlogLink>
-        <HomeLink>
-          <a href="/" style={{ textDecoration: 'none' }}>
-            Home
-          </a>
-        </HomeLink>
       </Nav>
     </div>
   )

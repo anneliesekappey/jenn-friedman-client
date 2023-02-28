@@ -16,14 +16,9 @@ export const Nav = styled.nav`
   justify-content: right;
   list-style-type: none;
 
-  @media ${devices.mobileL} {
-    max-width: 426px;
-    width: 98%;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
-    width: 100%;
+    width: 97%;
   }
 
   @media ${devices.mobileM} {
@@ -32,27 +27,30 @@ export const Nav = styled.nav`
     font-size: 10px;
   }
 
+  @media ${devices.mobileL} {
+    max-width: 424px;
+    width: 98%;
+  }
+
   @media ${devices.tablet} {
     max-width: 768px;
-    width: 97%;
+    width: 99%;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
-    width: 98%;
+    width: 99%;
   }
 
   @media ${devices.laptopL} {
     max-width: 1440px;
-    width: 97%;
-    font-size: 20px;
+    width: 99%;
   }
 
   @media ${devices.desktop} {
     max-width: 2560px;
-    width: 97%;
-    font-size: 26px;
-    height: 420px;
+    width: 99%;
+    height: 150px;
   }
 `
 export const HomeLink = styled.a`
@@ -66,32 +64,34 @@ export const HomeLink = styled.a`
     border: 1px solid #f0f0f0;
   }
 
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 14px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
-    width: 90%;
-    padding: 15px;
+    width: 95%;
+    padding: 10px;
     font-size: 12px;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
-    width: 91%;
+    width: 97%;
     font-size: 13px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 97%;
+    font-size: 14px;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
+    width: 97%;
     font-size: 15px;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
+    width: 97%;
     font-size: 17px;
   }
 
@@ -105,7 +105,6 @@ export const HomeLink = styled.a`
     max-width: 2560px;
     width: 97%;
     font-size: 26px;
-    height: 420px;
   }
 `
 export const JennDiv = styled.div`
@@ -120,12 +119,6 @@ export const JennDiv = styled.div`
   padding: 4px 0px 4px 0px;
   margin: 24px 0px 1px 0px;
 
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 11px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
     flex-direction: column;
@@ -136,8 +129,14 @@ export const JennDiv = styled.div`
     flex-direction: column;
   }
 
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+  }
+
   @media ${devices.tablet} {
     max-width: 768px;
+    padding: 5px;
     flex-direction: row;
   }
 
@@ -149,14 +148,13 @@ export const JennDiv = styled.div`
   @media ${devices.laptopL} {
     max-width: 1440px;
     width: 97%;
-    font-size: 20px;
   }
 
   @media ${devices.desktop} {
     max-width: 2560px;
-    width: 97%;
-    font-size: 26px;
-    height: 420px;
+    width: 99%;
+    padding: 10px;
+    margin-top: 80px;
   }
 `
 export const JennTextbox = styled.p`
@@ -166,7 +164,6 @@ export const JennTextbox = styled.p`
   align-items: center;
   margin: 14px 6px 2px 3px;
   border-radius: 2px;
-  align-text: left;
   width: 100%;
   height: 140px;
   color: #909090;
@@ -176,12 +173,6 @@ export const JennTextbox = styled.p`
   outline: none;
   border: 1px solid #f8f8f8;
   background-color: #ffffff;
-
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 11px;
-  }
 
   @media ${devices.mobileS} {
     max-width: 324px;
@@ -195,6 +186,12 @@ export const JennTextbox = styled.p`
     width: 93%;
     height: 200px;
     font-size: 11px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 12px;
   }
 
   @media ${devices.tablet} {
@@ -220,7 +217,7 @@ export const JennTextbox = styled.p`
   @media ${devices.desktop} {
     max-width: 2560px;
     width: 97%;
-    font-size: 26px;
+    font-size: 27px;
     height: 420px;
   }
 `
@@ -235,32 +232,33 @@ export const AboutLink = styled.a`
     border: 1px solid #f0f0f0;
   }
 
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 11px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
-    width: 90%;
-    padding: 15px;
+    width: 97%;
     font-size: 12px;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
-    width: 91%;
+    width: 97%;
     font-size: 13px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 97%;
+    font-size: 14px;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
+    width: 98%;
     font-size: 15px;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
+    width: 97%;
     font-size: 17px;
   }
 
@@ -274,7 +272,6 @@ export const AboutLink = styled.a`
     max-width: 2560px;
     width: 97%;
     font-size: 26px;
-    height: 420px;
   }
 `
 export const ConnectLink = styled.a`
@@ -288,32 +285,33 @@ export const ConnectLink = styled.a`
     border: 1px solid #f0f0f0;
   }
 
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 11px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
-    width: 90%;
-    padding: 15px;
+    width: 97%;
     font-size: 12px;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
-    width: 91%;
+    width: 97%;
     font-size: 13px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 97%;
+    font-size: 14px;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
+    width: 97%;
     font-size: 15px;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
+    width: 97%;
     font-size: 17px;
   }
 
@@ -327,7 +325,6 @@ export const ConnectLink = styled.a`
     max-width: 2560px;
     width: 97%;
     font-size: 26px;
-    height: 420px;
   }
 `
 export const BookLink = styled.a`
@@ -341,32 +338,33 @@ export const BookLink = styled.a`
     border: 1px solid #f0f0f0;
   }
 
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 11px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
-    width: 90%;
-    padding: 15px;
+    width: 97%;
     font-size: 12px;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
-    width: 91%;
+    width: 97%;
     font-size: 13px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 97%;
+    font-size: 14px;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
+    width: 97%;
     font-size: 15px;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
+    width: 97%;
     font-size: 17px;
   }
 
@@ -380,7 +378,6 @@ export const BookLink = styled.a`
     max-width: 2560px;
     width: 97%;
     font-size: 26px;
-    height: 420px;
   }
 `
 export const BlogLink = styled.a`
@@ -394,32 +391,33 @@ export const BlogLink = styled.a`
     border: 1px solid #f0f0f0;
   }
 
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 11px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
-    width: 90%;
-    padding: 15px;
+    width: 97%;
     font-size: 12px;
   }
 
   @media ${devices.mobileM} {
     max-width: 374px;
-    width: 91%;
+    width: 97%;
     font-size: 13px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 97%;
+    font-size: 14px;
   }
 
   @media ${devices.tablet} {
     max-width: 768px;
+    width: 97%;
     font-size: 15px;
   }
 
   @media ${devices.laptop} {
     max-width: 1324px;
+    width: 97%;
     font-size: 17px;
   }
 
@@ -433,7 +431,6 @@ export const BlogLink = styled.a`
     max-width: 2560px;
     width: 97%;
     font-size: 26px;
-    height: 420px;
   }
 `
 export const BookDiv = styled.div`
@@ -448,12 +445,6 @@ export const BookDiv = styled.div`
   padding: 4px 0px 4px 0px;
   margin: 24px 0px 1px 0px;
 
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 9.7px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
     width: 90%;
@@ -464,6 +455,12 @@ export const BookDiv = styled.div`
     max-width: 374px;
     width: 91%;
     font-size: 9.2px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 9.7px;
   }
 
   @media ${devices.tablet} {
@@ -541,12 +538,6 @@ export const AuthorDiv = styled.div`
   padding: 4px 0px 4px 0px;
   margin: 24px 0px 1px 0px;
 
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 9.7px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
     width: 90%;
@@ -557,6 +548,12 @@ export const AuthorDiv = styled.div`
     max-width: 374px;
     width: 91%;
     font-size: 9.2px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 9.7px;
   }
 
   @media ${devices.tablet} {
@@ -600,12 +597,6 @@ export const BookButton = styled.a`
     border-radius: 1px;
   }
 
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 95%;
-    font-size: 11px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
     width: 90%;
@@ -616,6 +607,12 @@ export const BookButton = styled.a`
     max-width: 374px;
     width: 91%;
     font-size: 10px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 95%;
+    font-size: 11px;
   }
 
   @media ${devices.tablet} {
@@ -660,12 +657,6 @@ export const BookBuyButton = styled.a`
   }
 `
 export const Image = styled.img`
-  @media ${devices.mobileL} {
-    max-width: 425px;
-    width: 52%;
-    height: 240px;
-  }
-
   @media ${devices.mobileS} {
     max-width: 324px;
     width: 45%;
@@ -676,6 +667,12 @@ export const Image = styled.img`
     max-width: 374px;
     width: 48%;
     height: 210px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 425px;
+    width: 52%;
+    height: 240px;
   }
 
   @media ${devices.tablet} {

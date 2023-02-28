@@ -57,6 +57,16 @@ const ContactForm = () => {
     <div className="contact-form">
       <form id="contact-form" onSubmit={handleSubmit(onSubmit)} noValidate>
         {/* Row 1 of form */}
+        <h3
+          style={{
+            color: '#909090',
+            fontFamily: 'Nunito',
+            textAlign: 'center',
+            marginTop: '0.5px',
+          }}
+        >
+          Contact the Author
+        </h3>
         <div className="row formRow">
           <div className="col-6">
             <input
