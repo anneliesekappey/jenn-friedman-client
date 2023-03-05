@@ -3,7 +3,7 @@ import { devices } from './Responsiveness.js'
 
 export const Nav = styled.nav`
   height: 70px;
-  width: 100%;
+  width: auto;
   display: flex;
   align-items: center;
   position: relative;
@@ -16,35 +16,32 @@ export const Nav = styled.nav`
   list-style-type: none;
 
   @media ${devices.mobileS} {
-    max-width: 325px;
+    max-width: 374px;
     padding: 12px;
   }
 
   @media ${devices.mobileM} {
-    max-width: 375px;
+    max-width: 424px;
   }
 
   @media ${devices.mobileL} {
-    max-width: 425px;
+    max-width: 767px;
   }
 
   @media ${devices.tablet} {
-    max-width: 768px;
-  }
-
-  @media ${devices.laptop} {
     max-width: 1324px;
   }
 
-  @media ${devices.laptopL} {
+  @media ${devices.laptop} {
     max-width: 1440px;
-    width: auto;
+  }
+
+  @media ${devices.laptopL} {
+    max-width: 2560px;
   }
 
   @media ${devices.desktop} {
-    max-width: 2560px;
     height: 150px;
-    width: auto;
   }
 `
 export const NavLink = styled.a`
@@ -58,46 +55,45 @@ export const NavLink = styled.a`
   }
 
   @media ${devices.mobileS} {
-    max-width: 324px;
+    max-width: 374px;
     width: 90%;
     padding: 7px;
     font-size: 12px;
   }
 
   @media ${devices.mobileM} {
-    max-width: 374px;
+    max-width: 424px;
     width: 94%;
     padding: 12px;
     font-size: 13px;
   }
 
   @media ${devices.mobileL} {
-    max-width: 425px;
+    max-width: 767px;
     width: 95%;
     padding: 14px;
     font-size: 14px;
   }
 
   @media ${devices.tablet} {
-    max-width: 768px;
+    max-width: 1324px;
     width: 97%;
     font-size: 15px;
   }
 
   @media ${devices.laptop} {
-    max-width: 1324px;
+    max-width: 1440px;
     width: 98%;
     font-size: 17px;
   }
 
   @media ${devices.laptopL} {
-    max-width: 1440px;
+    max-width: 2560px;
     width: 100%;
     font-size: 20px;
   }
 
   @media ${devices.desktop} {
-    max-width: 2560px;
     width: 100%;
     font-size: 26px;
   }
@@ -105,7 +101,7 @@ export const NavLink = styled.a`
 export const PageDiv = styled.div`
   display: flex;
   float: center;
-  width: 100%;
+  width: auto;
   align-items: center;
   text-decoration: none;
   justify-content: center;
@@ -115,40 +111,38 @@ export const PageDiv = styled.div`
   margin: 32px 0px 18px 0px;
 
   @media ${devices.mobileS} {
-    max-width: 325px;
+    max-width: 374px;
     flex-direction: column;
   }
 
   @media ${devices.mobileM} {
-    max-width: 375px;
+    max-width: 424px;
     flex-direction: column;
   }
 
   @media ${devices.mobileL} {
-    max-width: 425px;
+    max-width: 767px;
     flex-direction: column;
   }
 
   @media ${devices.tablet} {
-    max-width: 768px;
+    max-width: 1324px;
     flex-direction: row;
   }
 
   @media ${devices.laptop} {
-    max-width: 1325px;
+    max-width: 1440px;
     flex-direction: row;
   }
 
   @media ${devices.laptopL} {
-    max-width: 1440px;
+    max-width: 2560px;
     flex-direction: row;
     margin-top: 100px;
     margin-bottom: 140px;
   }
 
   @media ${devices.desktop} {
-    max-width: 2560px;
-    width: 99%;
     padding: 10px;
     margin-top: 80px;
     margin-bottom: 230px;
@@ -171,37 +165,36 @@ export const PageTextbox = styled.p`
   background-color: #ffffff;
 
   @media ${devices.mobileS} {
-    max-width: 325px;
+    max-width: 374px;
     font-size: 9px;
   }
 
   @media ${devices.mobileM} {
-    max-width: 375px;
+    max-width: 424px;
     font-size: 11px;
   }
 
   @media ${devices.mobileL} {
-    max-width: 425px;
+    max-width: 767px;
     font-size: 12px;
   }
 
   @media ${devices.tablet} {
-    max-width: 768px;
+    max-width: 1324px;
     font-size: 13px;
   }
 
   @media ${devices.laptop} {
-    max-width: 1325px;
+    max-width: 1440px;
     font-size: 19px;
   }
 
   @media ${devices.laptopL} {
-    max-width: 1440px;
+    max-width: 2560px;
     font-size: 20px;
   }
 
   @media ${devices.desktop} {
-    max-width: 2560px;
     font-size: 25px;
     height: 720px;
   }
@@ -221,32 +214,32 @@ export const BookButton = styled.a`
   }
 
   @media ${devices.mobileS} {
-    max-width: 325px;
+    max-width: 374px;
     width: 94%;
     font-size: 9px;
   }
 
   @media ${devices.mobileM} {
-    max-width: 375px;
+    max-width: 424px;
     width: 95%;
     font-size: 10px;
   }
 
   @media ${devices.mobileL} {
-    max-width: 425px;
+    max-width: 767px;
     width: 96%;
     font-size: 11px;
   }
 
   @media ${devices.tablet} {
-    max-width: 768px;
+    max-width: 1324px;
     width: 97%;
     height: 50px;
     font-size: 12px;
   }
 
   @media ${devices.laptop} {
-    max-width: 1324px;
+    max-width: 1440px;
     width: 97.5%;
     height: 70px;
     margin-top: 38px;
@@ -255,7 +248,7 @@ export const BookButton = styled.a`
   }
 
   @media ${devices.laptopL} {
-    max-width: 1440px;
+    max-width: 2560px;
     width: 98%;
     height: 120px;
     margin-bottom: 200px;
@@ -263,7 +256,6 @@ export const BookButton = styled.a`
   }
 
   @media ${devices.desktop} {
-    max-width: 2560px;
     width: 98%;
     height: 130px;
     margin-bottom: 260px;
@@ -285,14 +277,14 @@ export const BookBuyButton = styled.a`
   }
 
   @media ${devices.mobileS} {
-    max-width: 325px;
+    max-width: 374px;
     width: 92%;
     margin-top: 22px;
     font-size: 14px;
   }
 
   @media ${devices.mobileM} {
-    max-width: 375px;
+    max-width: 424px;
     width: 94%;
     height: 40px;
     margin-top: 28px;
@@ -300,14 +292,14 @@ export const BookBuyButton = styled.a`
   }
 
   @media ${devices.mobileL} {
-    max-width: 425px;
+    max-width: 767px;
     width: 95%;
     height: 60px;
     font-size: 21px;
   }
 
   @media ${devices.tablet} {
-    max-width: 768px;
+    max-width: 1324px;
     width: 96.5%;
     height: 70px;
     margin-top: 36px;
@@ -315,7 +307,7 @@ export const BookBuyButton = styled.a`
   }
 
   @media ${devices.laptop} {
-    max-width: 1324px;
+    max-width: 1440px;
     width: 97.7%;
     height: 64px;
     margin-top: 44px;
@@ -323,7 +315,7 @@ export const BookBuyButton = styled.a`
   }
 
   @media ${devices.laptopL} {
-    max-width: 1440px;
+    max-width: 2560px;
     width: 98%;
     height: 120px;
     margin-top: 44px;
@@ -332,7 +324,6 @@ export const BookBuyButton = styled.a`
   }
 
   @media ${devices.desktop} {
-    max-width: 2560px;
     width: 98%;
     height: 140px;
     margin-bottom: 240px;
@@ -341,25 +332,25 @@ export const BookBuyButton = styled.a`
 `
 export const Image = styled.img`
   @media ${devices.mobileS} {
-    max-width: 325px;
-    width: 138px;
-    height: 202px;
-  }
-
-  @media ${devices.mobileM} {
-    max-width: 375px;
-    width: 151px;
-    height: 216px;
-  }
-
-  @media ${devices.mobileL} {
-    max-width: 425px;
+    max-width: 374px;
     width: 170px;
     height: 243px;
   }
 
+  @media ${devices.mobileM} {
+    max-width: 424px;
+    width: 170px;
+    height: 243px;
+  }
+
+  @media ${devices.mobileL} {
+    max-width: 767px;
+    width: 189px;
+    height: 270px;
+  }
+
   @media ${devices.tablet} {
-    max-width: 768px;
+    max-width: 1324px;
     padding-top: 50px;
     padding-right: 20px;
     width: 189px;
@@ -367,7 +358,7 @@ export const Image = styled.img`
   }
 
   @media ${devices.laptop} {
-    max-width: 1324px;
+    max-width: 1440px;
     padding-top: 60px;
     padding-right: 26px;
     width: 226px;
@@ -375,7 +366,7 @@ export const Image = styled.img`
   }
 
   @media ${devices.laptopL} {
-    max-width: 1440px;
+    max-width: 2560px;
     padding-top: 80px;
     padding-right: 38px;
     width: 245px;
@@ -383,7 +374,6 @@ export const Image = styled.img`
   }
 
   @media ${devices.desktop} {
-    max-width: 2560px;
     padding-top: 110px;
     padding-right: 57px;
     width: 320px;
