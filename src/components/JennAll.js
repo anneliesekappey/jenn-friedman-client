@@ -1,18 +1,18 @@
 import Cover from '../images/Cover.jpg'
 import { JennText } from './JennText'
-import { JennDiv, Image } from './Shared'
+import { PageDiv, Image } from './Shared'
 
 export const JennAll = () => {
   return (
     <div>
-      <JennDiv>
+      <PageDiv>
         <Image
           src={Cover}
           alt="Veganism and Eating Disorder Recovery"
-          style={{ width: '30%', height: '30%' }}
+          style={{}}
         />
         <JennText></JennText>
-      </JennDiv>
+      </PageDiv>
     </div>
   )
 }

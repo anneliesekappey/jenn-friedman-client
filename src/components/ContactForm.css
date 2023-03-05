@@ -1,11 +1,11 @@
 .contact-form {
-    width: 90%;
+    width: 75%;
     border-radius: 5px;
-    padding: 50px;
-    margin-bottom: 40px;
+    padding: 20px;
+    margin-bottom: 160px;
     margin-top: 60px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 6px;
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
@@ -42,7 +42,7 @@
 }
 
 .form-control {
-    width: 60%;
+    width: 70%;
     outline: none;
     padding: 8px 16px;
     border: 1px solid #e0e6e8;
@@ -56,14 +56,15 @@
 @media only screen and (max-width: 600px) {
     .contact-form {
         font-size: 12px;
-        padding-left: 3px;
+        width: auto;
+        margin-top: 70px;
     }
     .container {
-        font-size: 7px;
+        font-size: 8px;
     }
     .form-control,
     .submit-btn {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -71,7 +72,8 @@
 @media only screen and (min-width: 600px) {
     .contact-form {
         font-size: 14px;
-        padding-left: 5px;
+        width: auto;
+        margin-top: 80px;
     }
     .container {
         font-size: 9px;
@@ -86,7 +88,8 @@
 @media only screen and (min-width: 768px) {
     .contact-form {
         font-size: 16px;
-        padding-left: 6px;
+        width: auto;
+        margin-top: 80px;
     }
     .container {
         font-size: 11px;

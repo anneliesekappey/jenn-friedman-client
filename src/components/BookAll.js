@@ -1,14 +1,14 @@
 import Cover from '../images/Cover.jpg'
 import { BookText } from './BookText.js'
-import { BookDiv, Image } from './Shared'
+import { PageDiv, Image } from './Shared'
 
 export const BookAll = () => {
   return (
     <div>
-      <BookDiv>
+      <PageDiv>
         <Image src={Cover} alt="Veganism and Eating Disorder Recovery" />
         <BookText></BookText>
-      </BookDiv>
+      </PageDiv>
     </div>
   )
 }

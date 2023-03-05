@@ -1,42 +1,35 @@
 import React from 'react'
-import {
-  AboutLink,
-  BlogLink,
-  BookLink,
-  ConnectLink,
-  HomeLink,
-  Nav,
-} from './Shared'
+import { NavLink, Nav } from './Shared'
 
 export const NavBar = () => {
   return (
     <div>
       <Nav>
-        <HomeLink>
+        <NavLink>
           <a href="/" style={{ textDecoration: 'none' }}>
             Home
           </a>
-        </HomeLink>
-        <BookLink>
+        </NavLink>
+        <NavLink>
           <a href="/aboutthebook" style={{ textDecoration: 'none' }}>
             About The Book
           </a>
-        </BookLink>
-        <AboutLink>
+        </NavLink>
+        <NavLink>
           <a href="/abouttheauthor" style={{ textDecoration: 'none' }}>
             About The Author
           </a>
-        </AboutLink>
-        <ConnectLink>
+        </NavLink>
+        <NavLink>
           <a href="/contact" style={{ textDecoration: 'none' }}>
             Contact
           </a>
-        </ConnectLink>
-        <BlogLink>
+        </NavLink>
+        <NavLink>
           <a href="/blog" style={{ textDecoration: 'none' }}>
             News
           </a>
-        </BlogLink>
+        </NavLink>
       </Nav>
     </div>
   )

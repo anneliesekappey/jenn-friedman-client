@@ -1,20 +1,20 @@
 import React from 'react'
-import { AuthorTextbox } from './Shared'
+import { PageTextbox } from './Shared'
 
 export const AuthorText = () => {
   return (
     <div>
-      <AuthorTextbox>
-        <h3
-          style={{
-            color: '#909090',
-            fontFamily: 'Nunito',
-            textAlign: 'center',
-            marginTop: '6px',
-          }}
-        >
-          Jenn Friedman
-        </h3>
+      <h3
+        style={{
+          color: '#909090',
+          fontFamily: 'Nunito',
+          textAlign: 'center',
+          marginTop: '26px',
+        }}
+      >
+        Jenn Friedman
+      </h3>
+      <PageTextbox>
         <p>
           Jenn Friedman is a mental health counselor, author, and musician from
           New York City. She obtained her master’s degree in Counseling from
@@ -31,7 +31,7 @@ export const AuthorText = () => {
           years and is deeply supportive of the vegan movement. She resides with
           her partner in their Manhattan apartment.
         </p>
-      </AuthorTextbox>
+      </PageTextbox>
     </div>
   )
 }

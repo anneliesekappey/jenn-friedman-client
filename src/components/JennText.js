@@ -1,10 +1,10 @@
 import React from 'react'
-import { JennTextbox } from './Shared'
+import { PageTextbox } from './Shared'
 
 export const JennText = () => {
   return (
     <div>
-      <JennTextbox>
+      <PageTextbox>
         <p>
           Veganism and eating disorders are often associated with one another in
           the eating disorder field. It is widely believed that following the
@@ -16,7 +16,7 @@ export const JennText = () => {
           rise, it is essential that we broaden the conversation around this
           topic.
         </p>
-      </JennTextbox>
+      </PageTextbox>
     </div>
   )
 }

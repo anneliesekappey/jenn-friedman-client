@@ -1,20 +1,20 @@
 import React from 'react'
-import { BookTextbox } from './Shared'
+import { PageTextbox } from './Shared'
 
 export const BookText = () => {
   return (
     <div>
-      <BookTextbox>
-        <h4
-          style={{
-            color: '#909090',
-            fontFamily: 'Nunito',
-            textAlign: 'center',
-            marginTop: '6px',
-          }}
-        >
-          Veganism and Eating Disorder Recovery
-        </h4>
+      <h4
+        style={{
+          color: '#909090',
+          fontFamily: 'Nunito',
+          textAlign: 'center',
+          marginTop: '26px',
+        }}
+      >
+        Veganism and Eating Disorder Recovery
+      </h4>
+      <PageTextbox>
         <p>
           Veganism and eating disorders are often associated with one another in
           the eating disorder field, leading to the widely adopted belief that
@@ -33,7 +33,7 @@ export const BookText = () => {
           professionals and eating disorder clients alike, enabling them to
           collaborate under optimal conditions.
         </p>
-      </BookTextbox>
+      </PageTextbox>
     </div>
   )
 }

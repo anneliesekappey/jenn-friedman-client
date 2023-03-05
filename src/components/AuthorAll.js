@@ -1,18 +1,14 @@
 import Jenn2 from '../images/Jenn2.jpg'
 import { AuthorText } from './AuthorText.js'
-import { AuthorDiv, Image } from './Shared'
+import { PageDiv, Image } from './Shared'
 
 export const AuthorAll = () => {
   return (
     <div>
-      <AuthorDiv>
-        <Image
-          src={Jenn2}
-          alt="Jenn Friedman"
-          style={{ height: '88%', width: '88%' }}
-        />
+      <PageDiv>
+        <Image src={Jenn2} alt="Jenn Friedman" style={{}} />
         <AuthorText></AuthorText>
-      </AuthorDiv>
+      </PageDiv>
     </div>
   )
 }
