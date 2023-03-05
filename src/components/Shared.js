@@ -339,22 +339,22 @@ export const Image = styled.img`
 
   @media ${devices.mobileM} {
     max-width: 424px;
-    width: 170px;
-    height: 243px;
+    width: 189px;
+    height: 270px;
   }
 
   @media ${devices.mobileL} {
     max-width: 767px;
-    width: 226px;
-    height: 324px;
+    width: 245px;
+    height: 351px;
   }
 
   @media ${devices.tablet} {
     max-width: 1324px;
     padding-top: 50px;
     padding-right: 20px;
-    width: 189px;
-    height: 270px;
+    width: 226px;
+    height: 324px;
   }
 
   @media ${devices.laptop} {
