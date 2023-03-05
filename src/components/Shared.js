@@ -345,8 +345,8 @@ export const Image = styled.img`
 
   @media ${devices.mobileL} {
     max-width: 767px;
-    width: 189px;
-    height: 270px;
+    width: 226px;
+    height: 324px;
   }
 
   @media ${devices.tablet} {
