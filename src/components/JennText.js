@@ -4,6 +4,16 @@ import { PageTextbox } from './Shared'
 export const JennText = () => {
   return (
     <div>
+      <h3
+        style={{
+          color: '#909090',
+          fontFamily: 'Nunito',
+          textAlign: 'center',
+          marginTop: '26px',
+        }}
+      >
+        Eating Disorders and Veganism: A Deeper Consideration
+      </h3>
       <PageTextbox>
         <p>
           Veganism and eating disorders are often associated with one another in

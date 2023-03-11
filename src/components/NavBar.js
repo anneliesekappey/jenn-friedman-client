@@ -21,13 +21,13 @@ export const NavBar = () => {
           </a>
         </NavLink>
         <NavLink>
-          <a href="/contact" style={{ textDecoration: 'none' }}>
-            Contact
+          <a href="/blog" style={{ textDecoration: 'none' }}>
+            News
           </a>
         </NavLink>
         <NavLink>
-          <a href="/blog" style={{ textDecoration: 'none' }}>
-            News
+          <a href="/contact" style={{ textDecoration: 'none' }}>
+            Contact
           </a>
         </NavLink>
       </Nav>
